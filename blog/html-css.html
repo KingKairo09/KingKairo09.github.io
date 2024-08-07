@@ -1,0 +1,97 @@
+<html lang="en">
+  <head>
+    <title>My practices: Using classes vs IDs - Hikairo's Blog</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../styles/main.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;1,400;1,700&amp;display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="container">
+    <h1>So you wanna know what's good in the hood with classes vs IDs</h1>
+
+    <div class="blogPost">
+      <p>
+        When creating Classes and IDs there are multiple things to take into
+        account, such as: styalising and designing HTML documents, following the
+        best practices when creating them and maintaining clean/clear code.
+      </p>
+
+      <h2>Classes vs IDs: The key differences</h2>
+      <p><strong>CLasses:</strong></p>
+      <ul>
+        <li>Classes can be used multiple times on the same page.</li>
+        <li>Classes are Ideal for styling groups of elements.</li>
+      </ul>
+      <p><strong>IDs:</strong></p>
+      <ul>
+        <li>IDs must be unique within a page.</li>
+        <li>IDs are usually used for a single element.</li>
+      </ul>
+
+      <h2>What are the Best Practices?</h2>
+      <p><strong>1. IDs are best used for Unique Elements</strong></p>
+      <p>
+        IDs are best for single elements that need to be uniquely identified,
+        such as a unique navigation bar, a specific section, or when you need to
+        modify the element directly with JavaScript.
+      </p>
+
+      <p><strong>2. Classes are for Reusable Styles</strong></p>
+      <p>
+        Classes should be used for styling multiple elements that share the same
+        styling rules, such as buttons, form fields, or repeated sections.
+      </p>
+
+      <p><strong>3. Try not to Overuse IDs</strong></p>
+      <p>
+        Overusing IDs can lead to issues in CSS, making it harder to override
+        styles and read the code. Classes on the other hand can be reused and
+        are much more flexible in this regard.
+      </p>
+
+      <p><strong>4. Be specific</strong></p>
+      <p>
+        IDs are more specific than classes. If you need to make changes to a
+        style, using a class will generally be easier and more manageable.
+      </p>
+
+      <p><strong>5. Use simple naming conventions</strong></p>
+      <p>
+        Clear, easy and understandable names make your HTML and CSS come much
+        easier to read and maintain.
+      </p>
+
+      <p><strong>6. Try to avoid using Inline Styles</strong></p>
+      <p>
+        Inline styles (e.g., <code>style="color: red;"</code>) need to be
+        specific and can make your code harder to read and understand. Use
+        classes and IDs in your CSS files instead.
+      </p>
+
+      <p><strong>7. Use IDs for Javascript</strong></p>
+      <p>
+        IDs are useful for selecting elements in JavaScript because they are
+        unique and provide a direct way to manipulate specific elements.
+      </p>
+
+      <h3>Conclusion</h3>
+      <p>
+        By following these best practices, you can ensure your code is clean,
+        easy to understand, easy to maintain, and scalable for future use.
+        Understanding when to use classes versus IDs is a fundamental skill in
+        web development that will help you create better and Truely epic web
+        pages.
+      </p>
+    </div>
+
+    <footer class="footer">
+      <p>© Hikairo's Blog</p>
+    </footer>
+  </body>
+</html>
