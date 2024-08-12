@@ -81,3 +81,43 @@ footer.footer {
   color: #fff;
   position: relative;
 }
+
+/* Media Queries */
+
+/* For tablets and smaller devices */
+@media (max-width: 768px) {
+  .nav {
+    width: 100%;
+    float: none;
+    padding: 10px;
+  }
+
+  .homeText {
+    width: 100%;
+    float: none;
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: calc(1.5rem + 2vw);
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+  .nav h2 {
+    font-size: 1.2em;
+  }
+
+  .navList li {
+    margin: 5px 0;
+  }
+
+  .homeText {
+    padding: 5px;
+  }
+
+  h1 {
+    font-size: calc(1.5rem + 1vw);
+  }
+}
